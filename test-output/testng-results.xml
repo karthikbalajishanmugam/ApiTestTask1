@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-18T05:02:59Z" name="Default suite" finished-at="2022-08-18T05:03:09Z" duration-ms="10237">
+    <groups>
+    </groups>
+    <test started-at="2022-08-18T05:02:59Z" name="Default test" finished-at="2022-08-18T05:03:09Z" duration-ms="10237">
+      <class name="Org.PetStore.PetStore">
+        <test-method is-config="true" signature="Post()[pri:0, instance:Org.PetStore.PetStore@5a9f4771]" started-at="2022-08-18T05:02:59Z" name="Post" finished-at="2022-08-18T05:03:02Z" duration-ms="3258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Post -->
+        <test-method signature="findpetstatus(java.lang.String)[pri:1, instance:Org.PetStore.PetStore@5a9f4771]" started-at="2022-08-18T05:03:02Z" name="findpetstatus" data-provider="status" finished-at="2022-08-18T05:03:04Z" duration-ms="1379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sold]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findpetstatus -->
+        <test-method signature="findpetstatus(java.lang.String)[pri:1, instance:Org.PetStore.PetStore@5a9f4771]" started-at="2022-08-18T05:03:04Z" name="findpetstatus" data-provider="status" finished-at="2022-08-18T05:03:05Z" duration-ms="1851" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[available]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findpetstatus -->
+        <test-method signature="findpetstatus(java.lang.String)[pri:1, instance:Org.PetStore.PetStore@5a9f4771]" started-at="2022-08-18T05:03:05Z" name="findpetstatus" data-provider="status" finished-at="2022-08-18T05:03:07Z" duration-ms="1227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pending]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findpetstatus -->
+        <test-method signature="put()[pri:2, instance:Org.PetStore.PetStore@5a9f4771]" started-at="2022-08-18T05:03:07Z" name="put" finished-at="2022-08-18T05:03:08Z" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- put -->
+        <test-method is-config="true" signature="get()[pri:0, instance:Org.PetStore.PetStore@5a9f4771]" started-at="2022-08-18T05:03:08Z" name="get" finished-at="2022-08-18T05:03:09Z" duration-ms="1262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get -->
+      </class> <!-- Org.PetStore.PetStore -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
